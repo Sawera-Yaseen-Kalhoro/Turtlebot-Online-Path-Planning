@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find turtlebot_online_path_planning)/launch/gazebo.launch" />
+    <node pkg="turtlebot_online_path_planning" type="turtlebot_online_path_planning_node.py" name="turtlebot_online_path_planning_node" output="screen"/>
+</launch>
